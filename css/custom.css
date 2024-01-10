@@ -1,0 +1,46 @@
+@import url(_layout.min.css);
+@import url(owl-carousel.min.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Exo', sans-serif;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 44px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #162630;
+}
+
+h3{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #162630;
+}
+
+h4{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    color: #162630;
+}
+
+p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    color: #586F7D;
+}

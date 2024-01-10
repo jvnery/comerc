@@ -1,0 +1,724 @@
+@import url(custom.css);
+@import url(owl-carousel.min.css);
+
+/* Section Benefícios */
+
+.intro {
+    padding: 160px 0 104px 0;
+    text-align: center;
+    display: flex;
+
+}
+
+.intro .beneficios{
+    display: flex;
+    justify-content: center;
+}
+
+.intro .beneficios h2{
+    margin-bottom: 80px;
+}
+
+.intro .beneficios .grid{
+    display: flex;
+    justify-content: center;
+}
+
+.intro .beneficios .itens{
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 16px;
+}
+
+.intro .beneficios .itens h3{
+    margin: 40px 0 10px 0;
+}
+
+/* Seção Carrosel */
+
+.container .row-fluid{
+    display: flex;
+}
+
+.container .quadro-1{
+    display: flex;
+    justify-content: center;
+}
+
+.container .para-pequeno{
+    display: flex;
+    flex-direction: column;
+    margin-top: 355px;
+    width: 60%;
+}
+
+.container .para-pequeno p{
+    padding-top: 8px;
+}
+
+.container .circulo-verde{
+    width: 388px;
+    position: absolute;
+    left: 650px;
+    top: 1000px;
+    z-index: -1;
+}
+
+.container .carrosel{
+    background-image: url(../imagens/circulo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container .carrosel .logo-cliente{
+    position: absolute;
+    top: 0;
+    left: 300px;
+}
+
+.container .carrosel .itens{
+    display: flex;
+    flex-direction: column;
+}
+
+.container .carrosel .itens .aspas{
+    display: flex;
+}
+
+.container .carrosel .itens .aspas span{
+    font-weight: 700;
+    font-size: 200px;
+    line-height: 200px;
+    letter-spacing: 0.04em;
+    color: #44D52C;
+    margin-top: -30px;
+}
+
+.container .carrosel .itens .aspas h2{
+    color: white;
+    text-transform: none;
+}
+
+.container .carrosel .itens .nome{
+    display: flex;
+    margin: 16px 0 36px 0;
+}
+
+.container .carrosel .itens .nome p{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+/* Seção Banner */
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner .topo-banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 160px 0;
+}
+
+.banner .topo-banner h2{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 68px;
+    letter-spacing: 0.04em;
+    margin: 24px 0;
+}
+
+.banner .footer-banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner .footer-banner img{
+    width: 1400px;
+}
+
+/* Seção Entenda Mais*/
+
+.bayer{
+    display: flex;
+    padding: 110px 0 10px 0;
+    width: 75%;
+    justify-content: end;
+}
+
+.bayer .mini-bayer{
+    width: 75px;
+}
+
+.entenda-mais{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.entenda-mais h2{
+    text-align: center;
+}
+
+.entenda-mais .certificados{
+    display: flex;
+    justify-content: center;
+    margin: 38px 0;
+    flex-wrap: wrap;
+}
+
+.entenda-mais .certificados .e-book{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.entenda-mais .certificados .e-book img{
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.entenda-mais .certificados .e-book button{
+    margin-top: 40px;
+    padding: 12px 40px;
+    border: 1px solid #44D52C;
+    border-radius: 800px;
+    background-color: #44D52C;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.entenda-mais .certificados .e-book button:hover{
+    background-color: #FFFFFF;
+    color: #44D52C;
+    border: 1px solid #44D52C;
+}
+
+/* Seção Simule Sua Economia */
+
+.economia{
+    display: flex;
+    justify-content: center;
+    padding: 150px 0;
+}
+
+.simule-sua-economia{
+    display: flex;
+    flex-direction: column;
+}
+
+.simule-sua-economia .box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.simule-sua-economia .box .formulario{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.simule-sua-economia .simule{
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.simule-sua-economia .box .formulario input{
+    padding: 12px 16px;
+    border: 1px solid #9DBED2;
+    border-radius: 40px;
+    margin-bottom: 40px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.08em;
+    color: #162630;
+}
+
+.simule-sua-economia .box .formulario input::placeholder{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #162630;
+}
+
+.simule-sua-economia .box .formulario .btn-formulario{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.simule-sua-economia .box .formulario button{
+    padding: 12px;
+    width: 273px;
+    height: 48px;
+    background: #44D52C;
+    border-radius: 800px;
+    border: 0;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #162630;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.simule-sua-economia .box .formulario button:hover{
+    background-color: #3fdd23;
+    color: #FFFFFF;
+}
+
+.simule-sua-economia .box .como-obter{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+/* Seção Perguntas e Respostas*/
+
+.frequentes{
+    padding: 140px 0;
+}
+
+.frequentes h2, .wrapper{
+    border-bottom: 1px solid #E3E5E6;
+    padding-bottom: 32px;
+}
+
+.frequentes .perguntas-respostas input{
+    display: none;
+}
+
+.frequentes .perguntas-respostas .wrapper{
+    display: flex;
+    flex-direction: column;
+    padding-top: 64px;
+}
+
+.frequentes .perguntas-respostas .wrapper label{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.wrapper p {
+    display: none;
+    padding-top: 16px;
+}
+
+.frequentes .perguntas-respostas .wrapper a{
+    content: url(../imagens/seta.svg);
+    transition: transform 0.5s ease;
+}
+
+.frequentes .perguntas-respostas .wrapper h4:hover{
+    color: #44D52C;
+}
+
+input:checked + .wrapper h4{
+    color: #44D52C;
+}
+
+input:checked + .wrapper label .seta{
+    transform: rotate(180deg);
+}
+
+input:checked + .wrapper p{
+    display: block;
+}
+
+
+/* Responsividade */
+
+@media (max-width:1400px){
+    .footer-banner img{
+        width: 90%!important;
+    }
+}
+
+@media (max-width:1300px){
+    .container .circulo-verde{
+        left: 526px;
+        top: 1046px;
+    }
+
+    .entenda-mais .e-book {
+        margin-bottom: 40px;
+    }
+
+    .entenda-mais .certificados .e-book button{
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:1100px){
+    .container .circulo-verde{
+        left: 455px;
+        top: 1077px;
+    }
+
+    .economia{
+        padding: 80px 0;
+    }
+}
+
+
+@media (max-width:1024px){
+    .intro{
+        padding: 120px 0 64px 0;
+    }
+
+    .intro .beneficios .grid{
+        flex-wrap: wrap;
+    }
+
+    .intro .beneficios .grid .itens{
+        width: 30%;
+    }
+
+    .container .span1{
+        display: none;
+    }
+
+    .banner .topo-banner {
+        padding: 120px 0;
+    }
+
+    .bayer{
+        padding: 90px 0 10px 0;
+        
+    }
+
+    .frequentes{
+        padding: 0;
+    }
+
+}
+
+@media (max-width:1000px){
+    .container .row-fluid{
+        flex-wrap: wrap;
+    }
+
+    .container .row-fluid .span6{
+        width: 100%;
+    }
+
+    .container .para-pequeno {
+        margin: 50px 0 100px 0;
+        width: 80%;
+    }
+
+    .container .carrosel .itens {
+        width: 60%;
+    }
+
+    .simule-sua-economia .box .formulario{
+        width: 100%;
+    }
+
+    .simule-sua-economia .box .como-obter{
+        padding-top: 60px;
+        width: 100%;
+    }
+}
+
+@media (max-width:768px){
+    h2{
+        font-size: 26px;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    h3{
+        font-size: 18px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    h4{
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    p{
+        font-size: 12px;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    .container .carrosel .itens .nome{
+        justify-content: center;
+    }
+
+    .frequentes .perguntas-respostas .caixas h4{
+        text-align: start;
+    }
+
+    .frequentes .perguntas-respostas .caixas p{
+        text-align: start;
+    }
+
+    .banner .topo-banner h2 {
+        font-size: 56px;
+        text-align: center;
+        margin: 12px 0;
+    }
+
+    .intro{
+        padding: 60px 0 32px 0;
+    }
+
+    .intro .beneficios h2{
+        margin-bottom: 40px;
+    }
+
+    .intro .beneficios .grid .itens{
+        width: 100%;
+        margin: 16px 0;
+    }
+
+    .container .carrosel .itens .aspas .testemunho{
+        text-align: start;
+    }
+
+    .container .carrosel .itens .nome{
+        margin: 0;
+    }
+
+    .entenda-mais .certificados .e-book img{
+        width: 90%;
+    }
+
+    .container .para-pequeno {
+        margin: 20px 0 70px 0;
+    }
+
+    .container .carrosel .span3 {
+        display: none;
+    }
+
+    .container .carrosel .span2 {
+        display: none;
+    }
+
+    .container .carrosel .itens {
+        width: 100%;
+    }
+
+    .banner .topo-banner {
+        padding: 60px 10px;
+    }
+
+    .bayer{
+        padding: 60px 0 10px 0;
+    }
+
+    .bayer img{
+        width: 10%!important;
+    }
+
+    .economia{
+        padding: 40px 0;
+    }
+
+    .simule-sua-economia .box{
+        padding: 0 10px;
+    }
+
+    .simule-sua-economia .box .formulario input {
+        margin-bottom: 20px;
+    }
+
+    .simule-sua-economia .box .formulario .btn-formulario {
+        justify-content: center;
+    }
+
+    .frequentes .perguntas-respostas .wrapper {
+        padding-top: 44px;
+    }
+
+    .frequentes .perguntas-respostas .wrapper label{
+        justify-content: center;
+        padding: 0 10px;
+    }
+    
+    .frequentes .perguntas-respostas .wrapper a{
+        margin-left: 12px;
+    }
+}
+
+@media (max-width:650px){
+    .container .carrosel img{
+        width: 55%!important;
+    }
+
+    .container .carrosel .logo-cliente{
+        width: 20%!important;
+        left: 260px;
+    }
+
+    .container .carrosel .itens .aspas span{
+        font-size: 160px;
+        margin-top: -40px;
+    }
+
+    .banner .topo-banner h2 {
+        font-size: 52px;
+        line-height: 64px;
+    }
+}
+
+@media (max-width:590px){
+    .container .carrosel .logo-cliente{
+        left: 220px;
+    }
+
+    .entenda-mais .certificados .e-book button{
+        font-size: 14px;
+        line-height: 20px;
+        padding: 10px 30px;
+    }
+
+    .simule-sua-economia .box .formulario button {
+        font-size: 14px;
+        line-height: 20px;
+        width: 200px;
+    }
+}
+
+@media (max-width:490px){
+    h2{
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    h3{
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    h4{
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    p{
+        font-size: 10px;
+        line-height: 20px;
+    }
+
+    .container .carrosel .itens .aspas .testemunho{
+        font-size: 22px;
+        line-height: 36px;
+    }
+
+    .container .carrosel .itens .nome p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .banner .topo-banner h2 {
+        font-size: 48px;
+        line-height: 60px;
+        margin: 6px 0;
+    }
+
+    .intro .beneficios .grid .itens {
+        width: 90%;
+    }
+
+    .intro .beneficios .grid .itens img{
+        width: 35%!important;
+    }
+
+    .intro{
+        padding: 40px 0 22px 0;
+    }
+
+    .intro .beneficios h2 {
+        margin-bottom: 40px;
+    }
+
+    .container .carrosel .logo-cliente{
+        left: 180px;
+    }
+
+    .simule-sua-economia .box .formulario input{
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .simule-sua-economia .box .formulario input::placeholder{
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .frequentes .perguntas-respostas .wrapper {
+        padding-top: 24px;
+    }
+}
+
+@media (max-width:390px){
+    h2{
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .container .carrosel .logo-cliente{
+        left: 160px;
+    }
+
+    .container .carrosel .itens .aspas span{
+        font-size: 140px;
+        margin-top: -50px;
+    }
+
+    .container .carrosel .itens .aspas .testemunho{
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .banner .topo-banner h2 {
+        font-size: 42px;
+        line-height: 56px;
+    }
+}
+
+@media (max-width:330px){
+    .container .carrosel .logo-cliente{
+        left: 140px;
+    }
+
+    .container .carrosel{
+        padding-top: 70px;
+    }
+
+    .container .carrosel .itens .nome p {
+        font-size: 12px;
+    }
+}
